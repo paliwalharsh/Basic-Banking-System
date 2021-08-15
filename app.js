@@ -49,7 +49,7 @@ app.get("/",(req,res,next) => {
 mongoose.connect(`mongodb+srv://${process.env.mongoUser}:${process.env.mongoPass}@cluster0.kpq9o.mongodb.net/${process.env.mongodbName}?retryWrites=true&w=majority`)
 .then((result) => {
     if(result){
-        app.listen(3000);
+        app.listen(process.env.PORT || 3000);
     }
     else{
         throw new Error("not able to connect mongodb");
