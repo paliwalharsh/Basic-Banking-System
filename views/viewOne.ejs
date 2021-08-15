@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/index.css">
+
+    <title>Customer Details</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary text-light">
+        <div class="container-fluid text-light">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="/viewAll">View All Customers</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="w-100 h-75 d-flex justify-content-center align-items-center ">
+        <div class="card w-75 b-none">
+            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+              <h1 class="card-title d-flex justify-content-center align-items-center text-capitalize"><%= name %></h1>
+              <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis consequatur ea harum, reprehenderit libero quas illo, voluptates, voluptate consequuntur distinctio sapiente cumque laboriosam odit architecto exercitationem itaque dolor recusandae veritatis perferendis aut sed. Corporis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel repudiandae blanditiis explicabo sunt quis ducimus. Iste reiciendis accusantium quo veritatis velit aliquid itaque facere et nemo dolorem, tempora, cumque, consequatur est laboriosam repellendus sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod tenetur recusandae optio libero aliquid vero. Odio harum maiores ipsum perferendis vero voluptates nisi, pariatur deleniti obcaecati nemo reprehenderit. Ipsam dicta, dolores, cum quidem sapiente corporis, impedit non iste totam aut perspiciatis suscipit. Unde debitis blanditiis dolor minus corrupti praesentium exercitationem.
+              </p>
+              <a href="/transact/<%= _id %>" class="btn btn-primary">Transfer Money</a>
+            </div>
+          </div>
+      </section>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
