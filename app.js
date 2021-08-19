@@ -25,7 +25,8 @@ app.use(helmet({
     contentSecurityPolicy:{
         useDefaults:true,
         directives:{
-            "script-src":["'self'","cdn.jsdelivr.net","kit.fontawesome.com"]
+            "script-src":["'self'","cdn.jsdelivr.net","kit.fontawesome.com"],
+            "connect-src":["'self'","https://ka-f.fontawesome.com/"]
         }
     }
 }));
